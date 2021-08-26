@@ -18,6 +18,11 @@ a {
 p {
     font-size: 16px;
 }
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
  
 .light-grey {
     color: #d9dcd6;
@@ -54,6 +59,7 @@ header div ul li {
     margin-left: 25px;
 }
 
+/* hero styles */
 .hero {
     height: 800px;
     width: 100%;
@@ -63,6 +69,7 @@ header div ul li {
     background-position: center;
 }
 
+/* content styles */
 .content {
     width: 75%;
     display: inline-block;
@@ -87,6 +94,7 @@ header div ul li {
     font-size: 36px;
 }
 
+/* benefits styles */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -101,17 +109,11 @@ header div ul li {
     margin-bottom: 32px;
 }
 
-.benefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
 
 /* unable to make the image float right without the important designation */
 .float-right {
