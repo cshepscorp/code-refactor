@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
 }
+
 /* generic page styles */
 body {
     background-color: #d9dcd6;
@@ -26,10 +27,6 @@ h3 {
  
 .light-grey {
     color: #d9dcd6;
-}
-
-.text-left {
-    text-align: left;
 }
 
 /* header styles */
@@ -94,6 +91,11 @@ header div ul li {
     font-size: 36px;
 }
 
+#online-reputation-management img {
+    float: right;
+    margin-right: 0;
+}
+
 /* benefits styles */
 .benefits {
     margin-right: 20px;
@@ -113,13 +115,6 @@ header div ul li {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* unable to make the image float right without the important designation */
-.float-right {
-    float: right!important;
-    margin-left: 25px;
-    margin-right: 0!important;
 }
 
 /* footer styles */
