@@ -20,6 +20,10 @@ p {
     font-size: 16px;
 }
 
+h2 {
+    font-size: 20px;
+}
+
 h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -91,6 +95,7 @@ header div ul li {
     font-size: 36px;
 }
 
+/* we want this image to float to the right */
 #online-reputation-management img {
     float: right;
     margin-right: 0;
@@ -100,7 +105,6 @@ header div ul li {
 .benefits {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
     float: right;
     width: 20%;
     height: 100%;
@@ -121,10 +125,5 @@ header div ul li {
 footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
 }
